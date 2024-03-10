@@ -37,16 +37,16 @@ Folder (directory) structures, or patterns, for organizing files are outlined be
 
 1. **Working artifacts pattern – for artifacts via running services and applications**
 	- [top-level scope]
-		- |- archive (processed artifacts)
+		- |- **`archive (processed artifacts)`**
 			- _(same structure as ‘working’)_
-		- |- failed (failed-to-be-processed artifacts)
+		- |- **`failed (failed-to-be-processed artifacts)`**
 			- _(same structure as ‘working’)_
-		- |- log (activity logs for artifact creation and processing)
+		- |- **`log (activity logs for artifact creation and processing)`**
 			- |- [yyyymmdd]
 				- |- [yyyymmddhh].log
 				- |- _(n, …)_
 			- |- _(n, …)_
-		- |- working  (created artifacts; unprocessed)
+		- |- **`working  (created artifacts; unprocessed)`**
 			- |- [artifacts scope]
 				- |- [category]
 				- |- (n, …)
@@ -70,19 +70,19 @@ the-business-application
 
 1. **Support artifacts pattern – a static pool of integrative artifacts (for quick use, project support)**
 	- [top-level scope]
-		- |- assets  (single resource files)
+		- |- **`assets  (single resource files)`**
 			- |- [category]
 				- |- (n, …)
 				- |- [sub category] (optional)
 					- |- [artifact name]
 						- |- (n, …)
-		- |- templates (complex multifile archives / multipart project files)
+		- |- **`templates (complex multifile archives / multipart project files)`**
 			- |- [category]
 				- |- (n, …)
 				- |- [sub category] (optional)
 					- |- [artifact name]
 						- |- (n, …)
-		- |- settings  (single files containing application settings)
+		- |- **`settings  (single files containing application settings)`**
 			- |- [category]
 				- |- (n, …)
 				- |- [sub category] (optional)
