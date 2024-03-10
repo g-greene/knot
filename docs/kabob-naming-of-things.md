@@ -33,26 +33,30 @@ This draft specification outlines a kabob-based nomenclature and organizing stru
 ### 1.1 General naming schemes
 #### 1.1.1 Folders
 Folder (directory) structures, or patterns, for organizing files are outlined below, on the next page. Folder names are to be short, in kabob form, no spaces, and nested from most general to specific. 
-NOTE: Since folders set the context, they in turn affect the names of the files that fall underneath. With that, containing scopes, or category names may not be needed in the file name.
+[^Note]
+> Since folders set the context, they in turn affect the names of the files that fall underneath. With that, containing scopes, or category names may not be needed in the file name.
 
-Working artifacts pattern – for artifacts via running services and applications
-	[top-level scope]
-|- archive (processed artifacts)
-(same structure as ‘working’)
-|- failed (failed-to-be-processed artifacts)
-(same structure as ‘working’)
-|- log (activity logs for artifact creation and processing)
-|- [yyyymmdd]
-|- [yyyymmddhh].log
-| - (n, …)
-| - (n, …)
-|- working  (created artifacts; unprocessed)
-|- [artifacts scope]
-|- [category]
-|- (n, …)
-|- [artifact name]
-|- (n, …)
-	e.g. 
+1. **Working artifacts pattern – for artifacts via running services and applications**
+	- [top-level scope]
+		- |- archive (processed artifacts)
+			- _(same structure as ‘working’)_
+		- |- failed (failed-to-be-processed artifacts)
+			- _(same structure as ‘working’)_
+		- |- log (activity logs for artifact creation and processing)
+			- |- [yyyymmdd]
+				- |- [yyyymmddhh].log
+				- |- _(n, …)_
+			- |- _(n, …)_
+		- |- working  (created artifacts; unprocessed)
+			- |- [artifacts scope]
+				- |- [category]
+				- |- (n, …)
+					- |- [artifact name]
+					- |- (n, …)
+
+
+
+e.g. 
 the-business-application
 |- archive
 |- failed (failed-to-be-processed artifacts)
