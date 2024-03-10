@@ -3,8 +3,6 @@
 Draft April 27th 2023
 ## Author
 Greg Greene
-
-
 ## Abstract
 This draft specification outlines a kabob-based nomenclature and organizing structures generally for internal and external IT related objects. Such objects include: organizational units, relational database objects, computers, filesystem objects, software code data structures, and domain (host) names. 
 
@@ -54,8 +52,6 @@ Folder (directory) structures, or patterns, for organizing files are outlined be
 				- |- (n, …)
 					- |- [artifact name]
 					- |- (n, …)
-
-
 
 e.g. 
 1. the-business-application
@@ -107,13 +103,6 @@ e.g.
 			- |-  fileformats
 				- |-  autocad.8bi
 
-	
-
-
-
-
-
-
 ## 1.1.2 Files
 A general naming scheme for things will be in the following format, below. Naming will use the kabob form for ease of typing (e.g. first-second-last) with no spaces to ensure compatibility with operating systems. This format is general, and used when no dictating context exists. 
 NOTE: spaces are used for explanation purposes, and not used in the actual name.
@@ -147,29 +136,20 @@ NOTE: spaces are used for explanation purposes, and not used in the actual name.
 > Descriptors are optional and are for differentiating with standout conditions, or attributes (e.g. blue, reversed, left, withborder, nocolor, pending, empty, … )
 
 
-
-
-
-1.2 Filesystem object naming and their contexts
-1.2.1 Order Files
-1.2.1.1 Business Central
-1.2.1.1.1 JSON
-1.2.1.1.2 FTP
-1.2.1.2 Fastrax
-
-1.2.2 Tax Right Files 
-INPUT
-OUTPUT
-
-1.2.2 Developing applications
-1.2.2.1 General
-
-1.3 Software represented objects and their contexts
-1.3.1 Administrative
-1.3.1	Software represented objects and their contexts 
-1.3.2	Administrative
-1.3.2.1	General
-1.3.2.2	Organizational units
-1.3.2.3	Computers
-1.3.2.3.1	
-1.3.2.4	Database objects
+## 1.2 Filesystem object naming and their contexts
+### 1.2.1 Order Files
+#### 1.2.1.1 Business Central
+##### 1.2.1.1.1 JSON
+##### 1.2.1.1.2 FTP
+#### 1.2.1.2 Retail Software
+### 1.2.2 Tax Files 
+### 1.2.2 Developing applications
+#### 1.2.2.1 General
+## 1.3 Software represented objects and their contexts
+### 1.3.1 Administrative
+### 1.3.1	Software represented objects and their contexts 
+### 1.3.2	Administrative
+#### 1.3.2.1	General
+#### 1.3.2.2	Organizational units
+#### 1.3.2.3	Computers
+#### 1.3.2.4	Database objects
