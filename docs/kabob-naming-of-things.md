@@ -52,19 +52,19 @@ Folder (directory) structures, or patterns, for organizing files are outlined be
 				- |- (n, …)
 					- |- [artifact name]
 					- |- (n, …)
-
+```
 e.g. 
-1. the-business-application
-	- |- archive
-	- |- failed (failed-to-be-processed artifacts)
-	- |- log
-		- |- 20230428
-			- |- 2023042815.log
-	- |- working
-		- |- orders
-			- |- customer-abc
-				- |- 2023120112051101-order.json
-	
+the-business-application
+	|- archive
+	|- failed (failed-to-be-processed artifacts)
+	|- log
+		|- 20230428
+			|- 2023042815.log
+	|- working
+		|- orders
+			|- customer-abc
+				|- 2023120112051101-order.json
+```	
 
 
 
@@ -89,19 +89,20 @@ e.g.
 					- |- (n, …)
 					- |- [artifact name]
 						|- (n, …)
-
-	e.g. 
-1. design-resources
-	- |- assets
-		- |-  raster
-			- |-  face-smiley-background-blue.png
-	- |- templates
-		- |-  word
-			- |-  letter-introduction-formal.docx
-	- |- settings
-		- |-  photoshop
-			- |-  fileformats
-				- |-  autocad.8bi
+```
+e.g. 
+design-resources
+	|- assets
+		|-  raster
+			|-  face-smiley-background-blue.png
+	|- templates
+		|-  word
+			|-  letter-introduction-formal.docx
+	|- settings
+		|-  photoshop
+			|-  fileformats
+				|-  autocad.8bi
+```
 
 ## 1.1.2 Files
 A general naming scheme for things will be in the following format, below. Naming will use the kabob form for ease of typing (e.g. first-second-last) with no spaces to ensure compatibility with operating systems. This format is general, and used when no dictating context exists. 
@@ -138,7 +139,7 @@ NOTE: spaces are used for explanation purposes, and not used in the actual name.
 
 ## 1.2 Filesystem object naming and their contexts
 ### 1.2.1 Order Files
-#### 1.2.1.1 Business Central
+#### 1.2.1.1 ERP system
 ##### 1.2.1.1.1 JSON
 ##### 1.2.1.1.2 FTP
 #### 1.2.1.2 Retail Software
@@ -147,9 +148,9 @@ NOTE: spaces are used for explanation purposes, and not used in the actual name.
 #### 1.2.2.1 General
 ## 1.3 Software represented objects and their contexts
 ### 1.3.1 Administrative
-### 1.3.1	Software represented objects and their contexts 
-### 1.3.2	Administrative
-#### 1.3.2.1	General
-#### 1.3.2.2	Organizational units
-#### 1.3.2.3	Computers
-#### 1.3.2.4	Database objects
+### 1.3.1 Software represented objects and their contexts 
+### 1.3.2 Administrative
+#### 1.3.2.1 General
+#### 1.3.2.2 Organizational units
+#### 1.3.2.3 Computers
+#### 1.3.2.4 Database objects
