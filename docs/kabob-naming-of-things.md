@@ -29,13 +29,13 @@ This draft specification outlines a kabob-based nomenclature and organizing stru
 
 ## 1 Overview of the nomenclature for things
 ### 1.1 General naming schemes
-#### 1.1.1 Folders
+## 1.1.1 Folders
 Folder (directory) structures, or patterns, for organizing files are outlined below, on the next page. Folder names are to be short, in kabob form, no spaces, and nested from most general to specific. 
 > [!NOTE]
 > Since folders set the context, they in turn affect the names of the files that fall underneath. With that, containing scopes, or category names may not be needed in the file name.
 > 
 
-1. **Working artifacts pattern – for artifacts via running services and applications**
+1. **`Working artifacts pattern` – for artifacts via running services and applications**
 	- [top-level scope]
 		- |- **`archive`** (processed artifacts)
 			- _(same structure as ‘working’)_
@@ -49,9 +49,9 @@ Folder (directory) structures, or patterns, for organizing files are outlined be
 		- |- **`working`**  (created artifacts; unprocessed)
 			- |- [artifacts scope]
 				- |- [category]
-				- |- (n, …)
+				- |- _(n, …)_
 					- |- [artifact name]
-					- |- (n, …)
+					- |- _(n, …)_
 ```
 e.g. 
 the-business-application
@@ -68,30 +68,30 @@ the-business-application
 
 
 
-1. **Support artifacts pattern – a static pool of integrative artifacts (for quick use, project support)**
+1. **`Support artifacts pattern` – a static pool of integrative artifacts (for quick use, project support)**
 	- [top-level scope]
 		- |- **`assets`**  (single resource files)
 			- |- [category]
-				- |- (n, …)
-				- |- [sub category] (optional)
+				- |- _(n, …)_
+				- |- [sub category] _(optional)_
 					- |- [artifact name]
-						- |- (n, …)
+						- |- _(n, …)_
 		- |- **`templates`** (complex multifile archives / multipart project files)
 			- |- [category]
-				- |- (n, …)
-				- |- [sub category] (optional)
+				- |- _(n, …)_
+				- |- [sub category] _(optional)_
 					- |- [artifact name]
-						- |- (n, …)
+						- |- _(n, …)_
 		- |- **`settings`**  (single files containing application settings)
 			- |- [category]
-				- |- (n, …)
-				- |- [sub category] (optional)
-					- |- (n, …)
+				- |- _(n, …)_
+				- |- [sub category] _(optional)_
+					- |- _(n, …)_
 					- |- [artifact name]
-						|- (n, …)
+						|- _(n, …)_
 ```
 e.g. 
-design-resources
+ design-resources
 	|- assets
 		|-  raster
 			|-  face-smiley-background-blue.png
