@@ -42,7 +42,6 @@ With a datetime, [yyyymmddhhmmssSS]
 e.g.  2023120112051101-xyzcompany-accounting-salesorder-3488831-amended
 ```
 
-```
-•	Category along with many of these parts are optional
-•	Descriptors are optional and are for differentiating with standout conditions, or attributes (e.g. blue, reversed, left, withborder, nocolor, pending, empty, … )
-```
+> [!NOTE]
+> Category along with many of these parts are optional
+> Descriptors are optional and are for differentiating with standout conditions, or attributes (e.g. blue, reversed, left, withborder, nocolor, pending, empty, … )
