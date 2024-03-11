@@ -206,5 +206,42 @@ Database table, view, function, and procedure naming is determinate by the datab
 > **_(or)_**
 >
 > picklist_account_types __20240210_
-> 
 
+> [!NOTE]
+> It's possible to use a table type, in table names to reduce the burden of remembering the purpose or general structure of the table.
+> Some possibilities are: link, table, picklist, dump.
+>
+
+### General table structures
+
+> [!TIP]
+> If you're looking for patterned table structures, in "dropped-kabob" form, you might use these. They meet a variety of requirements, with metadata fields included.
+
+### `Table: entity`
+
+- [x] :key: id (uuid) - _primary key_
+- [ ] code (nvarchar) - _a unique code for reference_
+- [ ] name (nvarchar)
+- [ ] version_number (int) - _an incrementing value_
+- [ ] created_by (uuid) 
+- [ ] created_on (datetime)
+- [ ] created_on_behalf_by (uuid)
+- [ ] modified_by (uuid)
+- [ ] modified_on (datetime)
+- [ ] modified_on_behalf_by (uuid)
+- [ ] utc_time_zone_offset (int)
+
+### `Table: link`
+
+- [x] :key: table_a_table_b_id (uuid) - _primary key_
+- [x] :key: table_a_id (uuid)
+- [x] :key: table_b_id (uuid)
+- [ ] code (nvarchar) - _a unique code for reference_
+- [ ] version_number (int) - _an incrementing value_
+- [ ] created_by (uuid) 
+- [ ] created_on (datetime)
+- [ ] created_on_behalf_by (uuid)
+- [ ] modified_by (uuid)
+- [ ] modified_on (datetime)
+- [ ] modified_on_behalf_by (uuid)
+- [ ] utc_time_zone_offset (int) 
