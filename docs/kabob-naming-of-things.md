@@ -217,7 +217,7 @@ Database table, view, function, and procedure naming is determinate by the datab
 > [!TIP]
 > If you're looking for patterned table structures, in "dropped-kabob" form, you might use these. They meet a variety of requirements, with metadata fields included.
 
-### `Table: entity`
+### `Table: general entity`
 
 - [x] :key: id (uuid) - _primary key_
 - [ ] code (nvarchar) - _a unique code for reference_
