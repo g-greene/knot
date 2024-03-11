@@ -173,9 +173,9 @@ Database table, view, function, and procedure naming is determinate by the datab
 > kabobcorp_numbercruncher_sp_expenses_updatetotals __20240210_
 > 
 
-### `Routine - Database: single app (e.g. NumberCruncher)`
+### `Routine - Database: single app`
 
-> _[sub type]_ **_ [db object] _ [activity] _** _[revision]_
+> _[routine type]_ **_ [db object] _ [activity] _** _[revision]_
 >
 > e.g.
 > expenses_updatetotals
@@ -186,25 +186,25 @@ Database table, view, function, and procedure naming is determinate by the datab
 
 ### `Table - Database: all inclusive`
 
-> **[company] _ [app name] _ [db object] _** _[revision]_
+> **[company] _ [app name] _** _[table type]_ **_ [name] _** _[revision]_
 >
 > e.g.
 > kabobcorp_numbercruncher_expense
 > 
 > **_(or)_**
 >
-> kabobcorp_numbercruncher_expense __20240210_
+> kabobcorp_numbercruncher_table_expense __20240210_
 > 
 
 ### `Table - Database: single app`
 
-> **[db object] _** _[revision]_
+> _[table type]_ _ **[name] _** _[revision]_
 >
 > e.g.
-> expense
+> account_types
 > 
 > **_(or)_**
 >
-> expense __20240210_
+> picklist_account_types __20240210_
 > 
 
