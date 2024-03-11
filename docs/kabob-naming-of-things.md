@@ -157,24 +157,23 @@ NOTE: spaces are used for explanation purposes, and not used in the actual name.
 Database table, view, function, and procedure naming is determinate by the database they're in (whether the database is for a specific app, or is all inclusive). Some context examples are:
 
 > [!NOTE]
-> Database names and identifiers can require [0-9a-zA-Z_@#] as outlined in [SQL Server: Database identifiers](https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-identifiers?view=sql-server-2017),
+> Database names and identifiers can require [0-9a-zA-Z_@#] as outlined in [SQL Server: Database identifiers](https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-identifiers?view=sql-server-2017#rules-for-regular-identifiers),
 > so we'll use the "dropped kabob" or snake case here.
 >
 
-### `Database: all inclusive`
+### `Routine - Database: all inclusive`
 
-> **[company] _ [app name] _** _[sub type]_ **_ [db object] _ [activity] _** _[revision]_
+> **[company] _ [app name] _** _[routine type]_ **_ [db object] _ [activity] _** _[revision]_
 >
 > e.g.
 > kabobcorp_numbercruncher_expenses_updatetotals
 > 
 > **_(or)_**
 >
-> kabobcorp_sp_numbercruncher_expenses_updatetotals __20240210_
+> kabobcorp_numbercruncher_sp_expenses_updatetotals __20240210_
 > 
 
-
-### `Database: single app (e.g. NumberCruncher)`
+### `Routine - Database: single app (e.g. NumberCruncher)`
 
 > _[sub type]_ **_ [db object] _ [activity] _** _[revision]_
 >
@@ -184,3 +183,28 @@ Database table, view, function, and procedure naming is determinate by the datab
 > **_(or)_**
 > 
 > sp_expenses_updatetotals_r9
+
+### `Table - Database: all inclusive`
+
+> **[company] _ [app name] _ [db object] _** _[revision]_
+>
+> e.g.
+> kabobcorp_numbercruncher_expense
+> 
+> **_(or)_**
+>
+> kabobcorp_numbercruncher_expense __20240210_
+> 
+
+### `Table - Database: single app`
+
+> **[db object] _** _[revision]_
+>
+> e.g.
+> expense
+> 
+> **_(or)_**
+>
+> expense __20240210_
+> 
+
