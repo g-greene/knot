@@ -16,8 +16,10 @@ Simply clone this repository down, or for now, keep a link to the specification 
 As a primer, let's dive into generating names for things; an excerpt from the specification:
 
 ## 1.1.2 Files
-A general naming scheme for things will be in the following format, below. Naming will use the kabob form for ease of typing (e.g. first-second-last) with no spaces to ensure compatibility with operating systems. This format is general, and used when no dictating context exists. 
-NOTE: spaces are used for explanation purposes, and not used in the actual name.
+A general naming scheme for things will be in the following format, below. Naming will use the kabob form for ease of typing (e.g. first-second-last) with no spaces to ensure compatibility with operating systems. This format is general, and used when no dictating context exists.
+
+> [!NOTE]
+> Spaces are used for explanation purposes, and not used in the actual name.
 
 ### General example
 
@@ -43,6 +45,6 @@ NOTE: spaces are used for explanation purposes, and not used in the actual name.
 > e.g.  2023120112051101-xyzcompany-accounting-salesorder-3488831-amended
 
 
-> [!NOTE]
+> [!TIP]
 > Category along with many of these parts are optional
 > Descriptors are optional and are for differentiating with standout conditions, or attributes (e.g. blue, reversed, left, withborder, nocolor, pending, empty, … )
