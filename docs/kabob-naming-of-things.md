@@ -153,4 +153,34 @@ NOTE: spaces are used for explanation purposes, and not used in the actual name.
 #### 1.3.2.1 General
 #### 1.3.2.2 Organizational units
 #### 1.3.2.3 Computers
-#### 1.3.2.4 Database objects
+## 1.3.2.4 Database objects
+Database table, view, function, and procedure naming is determinate by the database they're in (whether the database is for a specific app, or is all inclusive). Some context examples are:
+
+> [!NOTE]
+> Database names and identifiers can require [0-9a-zA-Z_@#] as outlined in [SQL Server: Database identifiers](https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-identifiers?view=sql-server-2017),
+> so we'll use the "dropped kabob" or snake case here.
+>
+
+### `Database: all inclusive`
+
+> **[company] _ [app name] _** _[sub type]_ **_ [db object] _ [activity] _** _[revision]_
+>
+> e.g.
+> kabobcorp_numbercruncher_expenses_updatetotals
+> 
+> **_(or)_**
+>
+> kabobcorp_sp_numbercruncher_expenses_updatetotals __20240210_
+> 
+
+
+### `Database: single app (e.g. NumberCruncher)`
+
+> _[sub type]_ **_ [db object] _ [activity] _** _[revision]_
+>
+> e.g.
+> expenses_updatetotals
+> 
+> **_(or)_**
+> 
+> sp_expenses_updatetotals_r9
