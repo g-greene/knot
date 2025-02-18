@@ -215,6 +215,21 @@ Database table, view, function, and procedure naming is determinate by the datab
 > Some possibilities are: link, table, picklist, dump.
 >
 
+### `Index - Database: all inclusive`
+
+>
+> **[company] _ [app name] _** [index type] _ [index_name] **_ [db object] _ [column1] _ [column2] _ [n ...]**
+>
+> e.g. kabobcorp_numbercruncher_clustered_account_name_createdon
+> 
+### `Index - Database: single app`
+
+>
+> [index type] _ [db object] _ [column1] _ [column2] _ [n ...]
+>
+> e.g. clustered_account_name_createdon
+>
+
 ### General table structures
 
 > [!TIP]
